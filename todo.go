@@ -15,7 +15,7 @@ type UsersList struct {
 type TodoItem struct {
 	Id          int    `json:"id"`
 	Title       string `json:"title"`
-	Descriptiom string `json:"descriptiom"`
+	Description string `json:"description"`
 	Done        bool   `json:"done"`
 }
 
